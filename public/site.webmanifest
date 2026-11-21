@@ -1,0 +1,26 @@
+{
+  "name": "MG Steel LLC",
+  "short_name": "MG Steel",
+  "description": "MG STEEL, LLC — Rebar, Post-Tension Cable, and Wire Mesh Structural Reinforcement Specialist.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#948669",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

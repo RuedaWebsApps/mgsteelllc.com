@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-baskerville: 'Libre Baskerville', Georgia, "Times New Roman", serif;
+    --font-opensans: 'Open Sans', Arial, sans-serif;
+    --color-mg-tan: #948669;
+    --color-mg-orange: #DB6526;
+    --color-mg-gold-nav: #ba9923;
+    --color-mg-dark: #111111;
+    --color-mg-card-gray: #e3e3e3;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-opensans);
+    color: #666666;
+    background-color: #111111;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-baskerville);
+  }
+}
+
+.font-baskerville {
+  font-family: var(--font-baskerville);
+}
+
+.font-opensans {
+  font-family: var(--font-opensans);
+}
+
+/* Section 0 Hero Background */
+.mg-hero-bg {
+  background-image:
+    linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.66) 100%),
+    url('/images/civil-engineering-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Section 2 Bridge Background */
+.mg-bridge-bg {
+  background-image:
+    linear-gradient(180deg, rgba(18, 101, 121, 0.2) 0%, rgba(18, 101, 121, 0.2) 100%),
+    url('/images/civil-engineering-33.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
